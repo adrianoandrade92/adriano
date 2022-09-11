@@ -8,12 +8,12 @@ import React, { useState } from "react"
 
 //Aqui começa front end//
 function Home() {
-    return <div> 
-        <h1>Home - Adriano Andrade Marques</h1>
+    return <div>
+        <h1>Adriano Andrade Marques</h1>
         <Contador />
         <div>
-            <h1>Bruna</h1>
-            <h2>Adriano</h2>
+            <h1>Bruna, você é a esposa mais linda do mundo</h1>
+            <h3>ASS: Adriano</h3>
         </div>
     </div>
 }
