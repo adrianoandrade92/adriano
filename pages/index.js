@@ -13,7 +13,7 @@ function Home() {
         <Contador />
         <div>
             <h1>Bruna, você é a esposa mais linda do mundo</h1>
-            <h3>ASS: Adriano</h3>
+            <h3>ASS: Adriano Andrade</h3>
         </div>
     </div>
 }
