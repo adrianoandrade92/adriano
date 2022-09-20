@@ -1,0 +1,118 @@
+/*começõ zerando o css*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*limita o tamanho da caixa ao max-width 580*/
+}
+/*tiro o style das ul*/
+ul {
+    list-style: none;
+}
+main {
+    margin-left: 16px;
+    display: grid;
+    /*diplay vem sempre em primeiro depois as outras config.*/
+    gap: 24px;
+    /*Espamento entre as sections */
+    margin-top: 32px;
+    margin-bottom: 32px;
+    max-width: 1100px;
+    /*buscar no figma tamanho do quadro*/
+    width: 90%;
+    /*sobrando 10% de cada lado*/
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Roboto', sans-serif;
+    color: white
+}
+
+header {
+    display: grid;
+    /*diplay vem sempre em primeiro depois as outras config.*/
+    margin-top: 20px;
+    margin-bottom: 16px;
+    max-width: 1100px;
+    /*buscar no figma tamanho do quadro*/
+    width: 90%;
+    /*sobrando 10% de cada lado*/
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*defino a fonte e altura da linha*/
+/*configuração da imagem (foto)*/
+header div img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    display: flex;
+    padding: 3px;
+    /*preenchimento de 4px*/
+    transition: transform 0.3s;
+    /*quando eu aplico div:hover , significa que vai aplicar propriedades  de tudo que estiver ali dentro*/
+}
+
+header section {
+    padding-top: 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+body {
+    background-color: #121214;
+    /* cor de fundo no decimal*/
+    background-image: url(./assets/bg.jpg);
+    /* onde esta a imagem */
+    background-position: top center;
+    /* quero centralizada a partir do topo */
+    background-size: 100% auto;
+    /* quero que ela pegue 100% da largura e automatico na vertical da pagina */
+    background-repeat: no-repeat;
+    /* quero que ela não se repita */
+}
+
+
+body {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    line-height: 170%;
+    background-color: #2A2634;
+}
+.DadosPessoais {
+    color: rgb(255, 255, 255);
+}
+
+
+
+section  {
+    padding-top: 20px;
+    margin-top: 20px;
+    /* border: white solid; */
+
+    /*aqui ta a sacada do gradiente no boarder top das sections*/
+    background-image: linear-gradient(90deg, #a0ce20 0%, #43E7AD 50.52%, #E2D45C 100%);
+    padding-top: 5px;
+    border-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+/*configuro o espaçamento da distancia até as bordas*/
+section div {
+    display: flex;  /*todos elementos dentro da ul ficam um do lado do outro*/
+    background-color: #2A2634;
+    padding: 6px;
+    padding-top: 10px;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    /* distancia de uma div para outra */
+    gap: 15px;
+    /*só funciona de colocar display flex, porque é gap horizontal*/
+    margin-top: 3px;
+}
+
