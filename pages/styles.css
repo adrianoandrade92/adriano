@@ -62,10 +62,10 @@ header section {
 
 }
 
-body {
-    background-color: #121214;
+html {
+    background-color: #000000;
     /* cor de fundo no decimal*/
-    background-image: url(./assets/bg.jpg);
+    background-image: url(pages\bg.jpg);
     /* onde esta a imagem */
     background-position: top center;
     /* quero centralizada a partir do topo */
