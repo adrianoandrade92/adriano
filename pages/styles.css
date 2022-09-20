@@ -27,17 +27,19 @@ main {
     color: white
 }
 
+
 header {
     display: grid;
     /*diplay vem sempre em primeiro depois as outras config.*/
     margin-top: 20px;
-    margin-bottom: 16px;
+    margin-bottom:20px;
     max-width: 1100px;
     /*buscar no figma tamanho do quadro*/
     width: 90%;
     /*sobrando 10% de cada lado*/
     margin-right: auto;
     margin-left: auto;
+    margin-top: auto;
 }
 
 /*defino a fonte e altura da linha*/
@@ -61,19 +63,26 @@ header section {
     border-bottom-right-radius: 20px;
 
 }
-
-html {
-    background-color: #000000;
-    /* cor de fundo no decimal*/
-    background-image: url(pages\bg.jpg);
-    /* onde esta a imagem */
-    background-position: top center;
-    /* quero centralizada a partir do topo */
-    background-size: 100% auto;
-    /* quero que ela pegue 100% da largura e automatico na vertical da pagina */
-    background-repeat: no-repeat;
-    /* quero que ela não se repita */
+header section h1 {
+    font-weight: 900;
+    font-size: 28px;
+    letter-spacing: 1px;
 }
+
+header section h2 {
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+header section h3 {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color:#43E7AD
+}
+
+
 
 
 body {
@@ -82,11 +91,6 @@ body {
     line-height: 170%;
     background-color: #2A2634;
 }
-.DadosPessoais {
-    color: rgb(255, 255, 255);
-}
-
-
 
 section  {
     padding-top: 20px;
@@ -114,5 +118,38 @@ section div {
     gap: 15px;
     /*só funciona de colocar display flex, porque é gap horizontal*/
     margin-top: 3px;
+}
+
+section h1 {
+    font-weight: 900;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+section h2 {
+    font-weight: 900;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+section h3 {
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+section h4 {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: rgb(181, 181, 181)
+    
+}
+
+section p {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.1px;
 }
 
