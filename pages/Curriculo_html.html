@@ -1,30 +1,32 @@
 
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
+<head>
+    <!-- Faço as conexões necessarias: API de fontes do google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./styles.css"> <!--faz a conexão com css-->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap" rel="stylesheet">
+    <!-- favicons -->
+    <link rel="icon" href="C:\Users\adria\OneDrive\Documentos\GitHub\adriano\assets\favicon-32x32.png" type="image/x-icon"/>
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculo</title>
+</head>
 
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Curriculo</title>
-
-        <link rel="stylesheet" href="./styles.css"> <!--faz a conexão com css-->
-
-    </head>
-    <body>
+<body>
+    <div class="Content">
         <!-- Aqui começa o cabeçalho -->
         <header>            
-            <Section DadosPessoais>
+            <Section ImagemPerfil>
                 <div Perfil>
                     <div>
                         <img
                         src="http://github.com/adrianoandrade92.png" 
                         alt="Adriano Andrade Marques" 
                         width="150" 
-                        height="150" />
+                        height="150"/>
                         <br>
                     </div> 
                         
@@ -34,6 +36,12 @@
                             <h1>Adriano Andrade Marques</h1><br>
                             <h2>Engenheiro / Analista / Desenvolvedor</h2><br>
                             <h3>Python | Javascript | HTML | CSS | REACT | SQL</h3><br>
+                            <p>
+                            Contato de e-mail:
+                            <a href="mailto:adrianoandrade92@gmail.com?subject=Adriano%20Marques" style="color:white">
+                                <h5>adrianoandrade92@gmail.com </h5>
+                            </a>
+                            </p>
                         </li>
                     </ul>
                 </div>
@@ -44,148 +52,245 @@
         <main>
             <section>
                 <div Linguas>
+                    <h2>Línguas</h2>
                     <ul>
                         <li>
                             <p>Português(BR) | Inglês | Espanhol </p>
                         </li>
                     </ul>
-                </div>
-            </section>
-            <!-- RESUMO -->
-                <div Resumo>
-                    <h2>Resumo</h2>
-                    <p>                       
-                        Engenheiro Mecânico com formação em Gestão de produção Industrial.<br>
-                        Experiência de 8 anos em indústria aeroespacial e desenvolvimento de produtos.<br> 
-                        Experiência em planejamento, indicadores, desenvolvimento e gerenciamento de projetos de engenharia.<br>
-                        Experiência com DIP (Desenvolvimento Integrado do Produto) e BPMN.<br>
-                        Experiência com desenvolvimento de softwares em linguagem Python, para análise de dados e automação de processos RPA. (Robotic Process Automation)<br>
-                        Atualmente buscando oportunidade na área de Engenharia de Planejamento / Processos.<br>
-                    </p>
-                </div>
-            </section>
-            <!-- EXPERIENCIA -->
-                <div Experiência>
-                    <ul class="experiencia">
-                        <h2>Experiência</h2>
+                    <h2>SoftSkills</h2>
+                    <ul>
                         <li>
-                            <h3>Empresa</h3>
-                            <h3>Função</h3>
-                            <h4>Periodo</h4>
-                            <ul>
-                                <p>Atividade</p>
-                                <p>Atividade</p>
-                                <p>Atividade</p>
-                            </ul>
-                            <li>
-                                <h3>Empresa</h3>
-                                <h3>Função</h3>
-                                <h4>Periodo</h4>
-                                <ul>
-                                    <p>Atividade</p>
-                                    <p>Atividade</p>
-                                    <p>Atividade</p>
-                                </ul>
-                            </li>
-                            <li>
-                                <h3>Empresa</h3>
-                                <h3>Função</h3>
-                                <h4>Periodo</h4>
-                                <ul>
-                                    <p>Atividade</p>
-                                    <p>Atividade</p>
-                                    <p>Atividade</p>
-                                </ul>
-                            </li>
-                            <li>
-                                <h3>Empresa</h3>
-                                <h3>Função</h3>
-                                <h4>Periodo</h4>
-                                <ul>
-                                    <p>Atividade</p>
-                                    <p>Atividade</p>
-                                    <p>Atividade</p>
-                                </ul>
-                            </li>
-                            <li>
-                                <h3>Empresa</h3>
-                                <h3>Função</h3>
-                                <h4>Periodo</h4>
-                                <ul>
-                                    <p>Atividade</p>
-                                    <p>Atividade</p>
-                                    <p>Atividade</p>
-                                </ul>
-                            </li>
-                            <li>
-                                <h3>Empresa</h3>
-                                <h3>Função</h3>
-                                <h4>Periodo</h4>
-                                <ul>
-                                    <p>Atividade</p>
-                                    <p>Atividade</p>
-                                    <p>Atividade</p>
-                                </ul>
-                            </li>
-                            <li>
-                                <h3>Empresa</h3>
-                                <h3>Função</h3>
-                                <h4>Periodo</h4>
-                                <ul>
-                                    <p>Atividade</p>
-                                    <p>Atividade</p>
-                                    <p>Atividade</p>
-                                </ul>
-                            </li>
-                            <li>
-                                <h3>Empresa</h3>
-                                <h3>Função</h3>
-                                <h4>Periodo</h4>
-                                <ul>
-                                    <p>Atividade</p>
-                                    <p>Atividade</p>
-                                    <p>Atividade</p>
-                                </ul>
-                            </li>
+                            <p>Colaboração | Flexibilidade | Resiliência </p>
+                            <p>Perfil analítico e voltado para resultados baseado em dados.</p>
                         </li>
                     </ul>
                 </div>
             </section>
-            
 
-        </section>
-        <!-- voluntariado -->
-            <div VOLUNTARIADO>
-                <ul class="Voluntariado">
-                    <h2>Trabalho Voluntário</h2>
-                    <li>
-                        <h3>Empresa</h3>
-                        <h3>Função</h3>
-                        <h4>Periodo</h4>
-                        <ul>
-                            <p>Atividade</p>
-                            <p>Atividade</p>
-                            <p>Atividade</p>
-                        </ul>
-                    </li>                        
-                </ul>
-            </div>
-        </section>
+            <section>
+            <!-- RESUMO -->
+                <div Resumo>
+                    <h2>Resumo</h2>
+                    <p>                       
+                        Me chamo Adriano, tenho 35 anos sou formado em Engenharia Mecânica pela Universidade Paulista - UNIP e também sou formado em Gestão de produção Industrial pela ETEP - Faculdades. Casado e um filho de 7 anos.<br>
+                        Viciado em assuntos de tecnologia e amo livros sobre liderança, desenvolvimento pessoal e gestão de projetos.<br>
+                        Trabalhei mais de 8 anos em indústria aeroespacial com desenvolvimento de produtos.<br>
+                        Meu estágio de Engenharia Mecânica foi na área de Engenharia de Sistemas, colaborando com analise de requisitos e criação de ESPEC de sistemas e subsistemas de foguetes guiados.<br>
+                        Tenho experiência em planejamento, indicadores, desenvolvimento e gerenciamento de projetos de engenharia.<br>
+                        DIP (Desenvolvimento Integrado do Produto) e BPMN (Business Process Model and Notation).<br>
+                        Desenvolvimento de softwares em linguagem Python, para análise de dados e automação de processos RPA. (Robotic Process Automation)<br>
+                        Atualmente estou me especializando em Analise de dados e aprendendo novas linguagens de programação e marcação.<br>
+                </div>
+            </section>
 
-            <div FormacaoAcademica>
-                <h2>Python | Javascript | HTML | CSS | REACT | SQL</h2>
-            </div>
+            <section>
+                <!-- Experiências -->
+                <div Experiência>
+                    <h2>Experiência</h2>
+                    <ul class="Experiências">
+                        <li>
+                            <h3>Avibras Indústria Aeroespacial S/A</h3>
+                            <h4>Engenharia de Sistemas</h4>
+                            <h5>Maio de 2021 – Dezembro de 2021 (8 meses)</h5>
+                            <p>Estágio de Engenharia e <i>Job Rotation</i>.</p>
+                            <p>- Experiência em análise de requisitos de Sistemas e Subsistemas.</p>
+                            <p>- Experiência em elaboração de ESPEC de Sistemas e Subsistemas.</p>
+                            <p>- Experiência em acompanhamento de rastreabilidade de requisitos.</p>
+                            <p>- Experiência em discuções técnicas nas reuniões de plenárias.</p>
+                            <p>- Conhecimento em <i>System Enginneering Process</i> e <i>Requirements Analysis (
+                                1. Customer expectations
+                                2. Project and enterprise constraints
+                                3. External constraints
+                                4. Operational scenarios
+                                5. Measure of effectiveness (MOEs)
+                                6. System boundaries
+                                7. Interfaces
+                                8. Utilization environments
+                                9. LIfe cycle
+                                10. Functional requirements
+                                11. Performance requirements
+                                12. Modes of operation
+                                13. Technical performance measures
+                                14. Physical characteristics
+                                15. Human systems integration)</i></p>                               
+                        </li>
 
-            <div CursosEspecializacoes>
-                <h2>Python | Javascript | HTML | CSS | REACT | SQL</h2>
-            </div>
-            
-            <div ProjetosPessoais>
-                <h2>Python | Javascript | HTML | CSS | REACT | SQL</h2>
-            </div>
-        
-        </main>     
-    </body>
+                        <li>
+                            <h3>Avibras Indústria Aeroespacial S/A</h3>
+                            <h4>Publicações Técnicas</h4>
+                            <h5>agosto de 2013 – março de 2022 (8 anos e 8 meses)</h5>
+                                <p>Desenvolvimento de produto na area de Publicações Técnicas:(Catálogo de peças, Manuais: Manutenção 1º, 2º e 3º Escalão), Manuais de Operação.</p>
+                                <p>- Experiência em criação de planilhas avançadas em Excel para controle e edição dos catálogos de peças.</p>
+                                <p>- Experiência em análise de documentação para cliente.</p>
+                                <p>- Experiência em Mapeamento de Processos (As Is / To Be).</p>
+                                <p>- Experiência em Modelagem de Processos (BPMN - Business Process Model and Notation).</p>
+                                <p>- Experiência em Desenvolvimento do Produto.</p>
+                                <p>- Experiência em DIP (Desenvolvimento Integrado do Produto)</p>
+                                <p>- Experiência em criação de softwares orientado a objetos em linguagem Python com execução em segundo plano para RPA e análise de Dados.</p>
+                                <p>- Experiência em Lean (Desenvolvimento de metodologias, ferramentas e estratégias de otimização dos processos com foco nos 4 pilares (Segurança, Qualidade, Prazo e Custo)</p>  
+                        </li>
+
+                        <li>
+                            <h3>Global Acrílicos</h3>
+                            <h4>Coordenador de Produção</h4>
+                            <h5>Outubro de 2010 – julho de 2013 (2 anos e 10 meses)</h5>
+                                <p>Responsável pela produção de peças em acrílicos e corte a laser.</p>
+                                <p>Responsável pela Interface com cliente e desenvolvimento de projetos.</p>
+                                <p>- Experiência com PCP, TMP, KAIZEN, Lean.</p>
+                                <p>- Experiência em controle de qualidade e estoque.</p>
+                                <p>- Desenvolvimento e gerenciamento de projetos e Interface com cliente.</p>
+                                <p>- Experiência com MS Project e Excel.</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+
+            <section>
+            <!-- voluntariado -->
+                <div VOLUNTARIADO>
+                    <h2>Voluntariado</h2>
+                    <ul class="Experiências">
+                        <li>
+                            <h3>ITA - Instituto Tecnológico de Aeronáutica - AIESEC</h3>
+                            <h4>Coordenador TMP</h4>
+                            <h5>julho/2010 até julho/2012</h5>
+                            <p>Suporte de Gestão dos Recursos Humanos (Seleção, Treinamentos, Acompanhamento e Desenvolvimento de Liderança Jovem).
+                                Planejamento estratégico de RH, considerando a realidade local, metas, ambição de crescimento, visão, missão de valores da organização.
+                                Gestão de um time com alinhamento de objetivos em vistas às metas organizacionais.</p>
+                            </p>                               
+                        </li>
+                </div>
+            </section>
+
+            <section>
+                <div FormacaoAcademica>
+                    <h2>Formação Acadêmica</h2>
+                    <ul class="FormacaoAcademica">
+                        <li>
+                            <h3>Bacharel em Engenharia Mecânica</h3>
+                            <h3>UNIP - Universidade Paulista</h3>
+                            <h4>Concluído - 2022</h4>
+                        </li>
+                        <li>
+                            <h3>Gestão de Produção Industrial - Tecnologia</h3>
+                            <h3>ETEP - Centro Universitário</h3>
+                            <h4>Concluído - 2013</h4>
+                        </li>                          
+                    </ul>
+                </div>
+            </section>
+
+            <section CursosEspecializacoes>
+                <div>
+                    <h2>Especializações</h2>                    
+                    <ul class="FormacaoAcademica">
+                        <h4>Cursos Industriais</h4>
+                        <li>
+                            <p>Senai: Mecânica Básica</p>
+                            <p>Senai: Mecânica de Usinagem I</p>
+                            <p>Senai & Petrobras: Oficial Encanador</p>
+                            <p>Senai & Petrobras: SMS (Segurança Meio Ambiente e Trabalho)</p>
+                            <p>Senai: Educação Ambiental</p>
+                            <p>Senai: Industria 4.0</p>
+                            <p>Senai: Segurança no Trabalho</p>
+                        </li>
+
+                        <h4>Cursos Tecnologia</h4>
+                        <li>
+                            <p>Pacote Office</p>
+                            <p>Excel Avançado (VBA)</p>
+                            <p>AutoCad</p>
+                            <p>SolidEdge</p>
+                            <p>Corel Draw Avançado</p>
+                            <p>Senai: Desvendando o 5G</p>
+                            <p>Power BI (Business intelligence)</p>
+                            <p>SENAC: SQL Server</p>
+                            <p>GOOGLE: Certificado Profissional Google IT Automation with Python</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section ProjetosPessoais>                
+                <div ProjetosPessoais>
+                    <div>
+                        <h3>ProjetosPessoais</h3>
+                    </div>
+
+                    <ul linguagens>  
+                        <li>
+                            <p>Abaixo estão os projetos que já desenvolvi ou que estão em desenvolvimento</p>
+                        </li>                      
+                        <li>
+                            <p>Este proje conciste em fazer a análise de arquivos em Excel e criar análise de dados baseados em alguns parametros e filtros.</p>                           
+                            <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" 
+                            alt="Python logo" 
+                            width="20" 
+                            height="20"/>
+                            <p><a href="projetopython.html" target="_blank" rel="noopener noreferrer"  style="color:white">Python</a></p>
+                            <br>
+                        </li>
+                        <li>                            
+                            <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/260px-Unofficial_JavaScript_logo_2.svg.png" 
+                            alt="Javascript" 
+                            width="20" 
+                            height="20"/> <p>Javascript</p>
+                            <br>
+                        </li>
+                        <li>                            
+                            <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/200px-HTML5_logo_and_wordmark.svg.png" 
+                            alt="HTML5_logo_and_wordmark" 
+                            width="20" 
+                            height="20"/> <p>HTML</p>
+                            <br>
+                        </li>
+                        <li>                            
+                            <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/100px-CSS3_logo_and_wordmark.svg.png" 
+                            alt="CSS3_logo_and_wordmark" 
+                            width="20" 
+                            height="20"/> <p>CSS</p>
+                            <br>
+                        </li>
+                        <li>                            
+                            <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/200px-React-icon.svg.png" 
+                            alt="React logo" 
+                            width="20" 
+                            height="20"/> <p>REACT</p>
+                            <br>
+                        </li>
+                        <li>                            
+                            <img
+                            src="https://img2.gratispng.com/20180805/xgo/kisspng-microsoft-sql-server-logo-database-microsoft-corpo-%D0%9A%D1%83%D0%BF%D0%B8%D1%82%D1%8C-sql-server-cal-2016-%D0%B2-%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%B4-5b672eba1d1023.7425009215334888261191.jpg" 
+                            alt="sql-server-logo" 
+                            width="20" 
+                            height="20"/> <p>SQL</p>
+                            <br>
+                        </li>
+                        <li>                            
+                            <img
+                            src="https://ih1.redbubble.net/image.367014294.4385/flat,750x,075,f-pad,750x1000,f8f8f8.jpg" 
+                            alt="NodeJS logo" 
+                            width="20" 
+                            height="20"/> <p>NodeJS</p>
+                            <br>
+                        </li>
+
+                    </ul>
+                    
+                    
+                </div>
+            </section>        
+        </main>
+
+    </div>
+</body>
 </html>
 
 
