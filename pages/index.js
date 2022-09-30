@@ -5,24 +5,31 @@
 //git push origin main , empurra p o github
 //npm run dev desenvolver localmente
 
+
 import React, { useState } from "react"
 
+
 //Aqui começa front end//
+
+
 function Home() {
 
     return <div>
         <Contador />
-        <h1>Adriano Andrade Marques</h1>
-        <div>
+        
+        <div class='perfil'>
+            <h1>Adriano Andrade Marques</h1>
             <h1>Bruna, você é a esposa mais linda do mundo</h1>
             <h3>ASS: Adriano Andrade</h3>
-            <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" 
-            alt="Python logo" 
-            width="20" 
-            height="20"/>
-            <p><a href="Curriculo_html.html" target="_blank" rel="noopener noreferrer"  style="color:white">Curriculo</a></p> 
+            <div>
+                <img
+                src="http://github.com/adrianoandrade92.png" 
+                alt="Adriano Andrade Marques" 
+                width="150" 
+                height="150"/>            
+            </div>  
         </div>
+
     </div>
 }
 //Aqui acaba front end//
