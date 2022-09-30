@@ -16,6 +16,7 @@ function Home() {
 
     return <div>
         <Contador />
+
         
         <div class='perfil'>
             <h1>Adriano Andrade Marques</h1>
@@ -50,5 +51,6 @@ function Contador() {
             <button onClick={adicionarContador}>Adicionar</button>
         </div>)
 }
+
 
 export default Home
